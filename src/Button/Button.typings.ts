@@ -11,4 +11,6 @@ export interface IButton {
   size?: SizeButton;
   type?: TypeButton;
   className?: string;
+  full?: boolean;
+  disabled?: boolean;
 }
